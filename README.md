@@ -6,8 +6,10 @@ DistilBERT (2019), a distilled version of BERT: smaller, faster, cheaper and lig
 
 
 ### Install Notes
-Python 3.6 required for pytorch and spacy-transformers
-```> conda create -n myenv python=3.6 pip jupyter nb_conda_kernels```
+Python 3.6 required for pytorch and spacy-transformers  
+```> conda create -n deeplyrics python=3.6 pip jupyter nb_conda_kernels ipywidgets```  
+```> conda activate deeplyrics```  
+```> conda update jupyter_core jupyter_client```  
 
 ##### `Pytorch`  
 * Get CUDA version from `nvcc --version` on windows, or `$ nvidia-smi` on unix.  
